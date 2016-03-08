@@ -8,9 +8,9 @@ from PyQt4 import QtGui
 from utils.utils import inv_rot, quat_to_mat, mat_to_quat
 from utils.image import image
 from InputGrabber import ExtTimeDrivenTUMGrabber
-from Visualization import Tutorial
-from RGBDVO.VisualOdometry import VisualOdometry
-from Octree import WeirdTree, HashMap, Octree
+from GUI import Tutorial
+from Odom.VisualOdometry import VisualOdometry
+from Octree import Octree
 
 closed = [False]
 paused = [False]

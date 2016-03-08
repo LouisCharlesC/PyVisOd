@@ -1,7 +1,6 @@
 from PyQt4 import QtCore, QtGui
-from Visualization import PyQt4OpenGlWidget
-import numpy as np
-from Visualization.PyQt4OpenGlWidget import GLPlotWidget
+from GUI import PyQt4OpenGlWidget
+from GUI.PyQt4OpenGlWidget import GLPlotWidget
 
 class MyQlabel(QtGui.QLabel):
 	def __init__(self, parent):
